@@ -3,27 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CECAB91526737901005B22DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB91426737901005B22DB /* AppDelegate.swift */; };
 		CECAB91726737901005B22DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB91626737901005B22DB /* SceneDelegate.swift */; };
-		CECAB91926737901005B22DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB91826737901005B22DB /* ViewController.swift */; };
+		CECAB91926737901005B22DB /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB91826737901005B22DB /* WalletViewController.swift */; };
 		CECAB91C26737901005B22DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECAB91A26737901005B22DB /* Main.storyboard */; };
 		CECAB91E26737903005B22DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECAB91D26737903005B22DB /* Assets.xcassets */; };
 		CECAB92126737903005B22DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECAB91F26737903005B22DB /* LaunchScreen.storyboard */; };
+		CECAB92D267379FD005B22DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB92C267379FD005B22DB /* Extensions.swift */; };
+		CECAB92F26737A41005B22DB /* CoincapAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB92E26737A41005B22DB /* CoincapAPI.swift */; };
+		CECAB931267389CB005B22DB /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB930267389CB005B22DB /* CoinTableViewCell.swift */; };
+		CECAB934267395B6005B22DB /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = CECAB933267395B6005B22DB /* Hero */; };
+		CECAB935267395B6005B22DB /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = CECAB933267395B6005B22DB /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		CECAB9382673A87C005B22DB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB9372673A87C005B22DB /* DetailsViewController.swift */; };
+		CECAB93B2673B11A005B22DB /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = CECAB93A2673B11A005B22DB /* MBProgressHUD */; };
+		CECAB93D2673C98B005B22DB /* CoinSelectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB93C2673C98B005B22DB /* CoinSelectionViewCell.swift */; };
+		CECAB9412673D028005B22DB /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB9402673D028005B22DB /* Chart.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CECAB936267395B7005B22DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CECAB935267395B6005B22DB /* Hero in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CECAB91126737901005B22DB /* CryptoWalletTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWalletTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECAB91426737901005B22DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECAB91626737901005B22DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CECAB91826737901005B22DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECAB91826737901005B22DB /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		CECAB91B26737901005B22DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CECAB91D26737903005B22DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECAB92026737903005B22DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECAB92226737903005B22DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECAB92C267379FD005B22DB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CECAB92E26737A41005B22DB /* CoincapAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoincapAPI.swift; sourceTree = "<group>"; };
+		CECAB930267389CB005B22DB /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		CECAB9372673A87C005B22DB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CECAB93C2673C98B005B22DB /* CoinSelectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSelectionViewCell.swift; sourceTree = "<group>"; };
+		CECAB9402673D028005B22DB /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECAB93B2673B11A005B22DB /* MBProgressHUD in Frameworks */,
+				CECAB934267395B6005B22DB /* Hero in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +87,69 @@
 		CECAB91326737901005B22DB /* CryptoWalletTest */ = {
 			isa = PBXGroup;
 			children = (
-				CECAB91426737901005B22DB /* AppDelegate.swift */,
-				CECAB91626737901005B22DB /* SceneDelegate.swift */,
-				CECAB91826737901005B22DB /* ViewController.swift */,
-				CECAB91A26737901005B22DB /* Main.storyboard */,
+				CECAB92826737913005B22DB /* App Cycle */,
+				CECAB92A2673792E005B22DB /* Views */,
+				CECAB92B26737948005B22DB /* API */,
+				CECAB92926737923005B22DB /* Interface */,
 				CECAB91D26737903005B22DB /* Assets.xcassets */,
-				CECAB91F26737903005B22DB /* LaunchScreen.storyboard */,
 				CECAB92226737903005B22DB /* Info.plist */,
 			);
 			path = CryptoWalletTest;
+			sourceTree = "<group>";
+		};
+		CECAB92826737913005B22DB /* App Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB91426737901005B22DB /* AppDelegate.swift */,
+				CECAB91626737901005B22DB /* SceneDelegate.swift */,
+			);
+			path = "App Cycle";
+			sourceTree = "<group>";
+		};
+		CECAB92926737923005B22DB /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB91A26737901005B22DB /* Main.storyboard */,
+				CECAB91F26737903005B22DB /* LaunchScreen.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		CECAB92A2673792E005B22DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB93F2673CFED005B22DB /* Wallet Scene */,
+				CECAB93E2673CFE4005B22DB /* Details Scene */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CECAB92B26737948005B22DB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB92C267379FD005B22DB /* Extensions.swift */,
+				CECAB92E26737A41005B22DB /* CoincapAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CECAB93E2673CFE4005B22DB /* Details Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB9372673A87C005B22DB /* DetailsViewController.swift */,
+				CECAB93C2673C98B005B22DB /* CoinSelectionViewCell.swift */,
+				CECAB9402673D028005B22DB /* Chart.swift */,
+			);
+			path = "Details Scene";
+			sourceTree = "<group>";
+		};
+		CECAB93F2673CFED005B22DB /* Wallet Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CECAB91826737901005B22DB /* WalletViewController.swift */,
+				CECAB930267389CB005B22DB /* CoinTableViewCell.swift */,
+			);
+			path = "Wallet Scene";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +162,17 @@
 				CECAB90D26737901005B22DB /* Sources */,
 				CECAB90E26737901005B22DB /* Frameworks */,
 				CECAB90F26737901005B22DB /* Resources */,
+				CECAB936267395B7005B22DB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CryptoWalletTest;
+			packageProductDependencies = (
+				CECAB933267395B6005B22DB /* Hero */,
+				CECAB93A2673B11A005B22DB /* MBProgressHUD */,
+			);
 			productName = CryptoWalletTest;
 			productReference = CECAB91126737901005B22DB /* CryptoWalletTest.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +200,10 @@
 				Base,
 			);
 			mainGroup = CECAB90826737901005B22DB;
+			packageReferences = (
+				CECAB932267395B6005B22DB /* XCRemoteSwiftPackageReference "Hero" */,
+				CECAB9392673B11A005B22DB /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
 			productRefGroup = CECAB91226737901005B22DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECAB91926737901005B22DB /* ViewController.swift in Sources */,
+				CECAB93D2673C98B005B22DB /* CoinSelectionViewCell.swift in Sources */,
+				CECAB931267389CB005B22DB /* CoinTableViewCell.swift in Sources */,
+				CECAB91926737901005B22DB /* WalletViewController.swift in Sources */,
+				CECAB92F26737A41005B22DB /* CoincapAPI.swift in Sources */,
 				CECAB91526737901005B22DB /* AppDelegate.swift in Sources */,
+				CECAB9412673D028005B22DB /* Chart.swift in Sources */,
+				CECAB9382673A87C005B22DB /* DetailsViewController.swift in Sources */,
 				CECAB91726737901005B22DB /* SceneDelegate.swift in Sources */,
+				CECAB92D267379FD005B22DB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92S6JX27W2;
 				INFOPLIST_FILE = CryptoWalletTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92S6JX27W2;
 				INFOPLIST_FILE = CryptoWalletTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +443,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CECAB932267395B6005B22DB /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
+		CECAB9392673B11A005B22DB /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CECAB933267395B6005B22DB /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAB932267395B6005B22DB /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		CECAB93A2673B11A005B22DB /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAB9392673B11A005B22DB /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CECAB90926737901005B22DB /* Project object */;
 }
